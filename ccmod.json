@@ -1,0 +1,9 @@
+{
+	"id": "yoshi-open-circuits",
+	"version": "1.0.0",
+	"module": true,
+	"title": "Open Circuits",
+	"description": "Gives enhanced control over the Circuit Menu.",
+	"prestart": "prestart.js",
+	"main": "main.js"
+}

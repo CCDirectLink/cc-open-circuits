@@ -1,0 +1,15 @@
+{
+	"labels": {
+		"menu": {
+			"hotkeys": {
+				"free-circuits": "Free Circuits",
+				"paid-circuits": "Paid Circuits"
+			},
+
+			"skill": {
+				"refund": "Refund",
+				"refund-all": "Refund All"
+			}
+		}
+	}
+}
