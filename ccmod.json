@@ -1,6 +1,6 @@
 {
 	"id": "yoshi-open-circuits",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"module": true,
 	"title": "Open Circuits",
 	"description": "Gives enhanced control over the Circuit Menu.",

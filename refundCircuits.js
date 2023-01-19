@@ -16,8 +16,7 @@ ig.module('yoshi-open-circuits-refund')
 
 				//Add our new button in
 
-				//ig.lang.Get("") switch to localized text
-				this.refund = new sc.ButtonGui("Refund", 96, true, sc.BUTTON_TYPE.ITEM);
+				this.refund = new sc.ButtonGui(ig.lang.get("sc.gui.menu.skill.refund"), 96, true, sc.BUTTON_TYPE.ITEM);
 				this.refund.setPos(1, 61);
 				this.refund.submitSound = null;
 				this.refund.onButtonPress = this._onRefundPress.bind(this);
@@ -238,6 +237,7 @@ ig.module('yoshi-open-circuits-refund')
 
 					sc.model.player.skillPoints[baseSkill.element] += baseSkill.getCPCost();
 					sc.model.player.unlearnSkill(skillUid);
+					sc.model.player.updateStats();
 
 					return true;
 				}

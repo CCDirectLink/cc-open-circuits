@@ -103,8 +103,7 @@ ig.module('yoshi-open-circuits-free')
 					return false;
 				}
 				else {
-					let parentValue = this.parent(a);
-					return parentValue;
+					return this.parent(a);
 				}
 			}
 		});
