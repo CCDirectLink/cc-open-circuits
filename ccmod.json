@@ -1,9 +1,11 @@
 {
 	"id": "yoshi-open-circuits",
 	"version": "1.0.1",
-	"module": true,
 	"title": "Open Circuits",
 	"description": "Gives enhanced control over the Circuit Menu.",
+	"repository": "https://github.com/CCDirectLink/cc-open-circuits",
+	"authors": ["EpicYoshiMaster"],
+	"tags": ["QoL", "cheats"],
 	"prestart": "prestart.js",
 	"main": "main.js"
 }
